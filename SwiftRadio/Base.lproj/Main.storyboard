@@ -345,7 +345,7 @@
                             <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GIj-4c-kRh" userLabel="Company-Button">
                                 <rect key="frame" x="12" y="633" width="123" height="23"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="90" id="Qr8-LJ-AFv"/>
+                                    <constraint firstAttribute="width" constant="120" id="Qr8-LJ-AFv"/>
                                     <constraint firstAttribute="height" constant="26" id="m1i-gc-0rZ"/>
                                 </constraints>
                                 <state key="normal" image="About Us2">
@@ -460,7 +460,7 @@
                             <constraint firstAttribute="trailing" secondItem="uXf-Wr-UiK" secondAttribute="trailing" id="wlz-dV-IhI"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="SubPop Records" id="M1Z-0o-hNV" userLabel="Station Title"/>
+                    <navigationItem key="navigationItem" title="KMIH Radio" id="M1Z-0o-hNV" userLabel="Station Title"/>
                     <nil key="simulatedBottomBarMetrics"/>
                     <connections>
                         <outlet property="aboutUsButton" destination="GIj-4c-kRh" id="HBe-w5-9mR"/>
@@ -520,7 +520,7 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="fdb-DQ-3fT" userLabel="Background Image View">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sub Pop Records" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEm-3W-Db6">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="KMIH Radio" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IEm-3W-Db6">
                                 <rect key="frame" x="134" y="99" width="225" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="LvN-NI-AcB"/>
@@ -529,7 +529,7 @@
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mid-sized Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLU-OR-FSU">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vLU-OR-FSU">
                                 <rect key="frame" x="134" y="120" width="225" height="21"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="5pu-sv-mbc"/>
@@ -539,11 +539,11 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cJI-ka-9k5">
-                                <rect key="frame" x="16" y="162" width="343" height="213"/>
+                                <rect key="frame" x="16" y="162" width="343" height="125.5"/>
                                 <constraints>
                                     <constraint firstAttribute="height" relation="lessThanOrEqual" priority="750" constant="340" id="ulU-kP-hZB"/>
                                 </constraints>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</string>
+                                <string key="text">Hot Jamz is KMIH FM Radio, heard in the Seattle area at 88.9 and 94.5 FM. The programming is generated by the students of Mercer Island High School in Mercer Island, Washington. Thanks for listening!  </string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
@@ -677,7 +677,7 @@
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" userInteractionEnabled="NO" contentMode="scaleToFill" misplaced="YES" scrollEnabled="NO" editable="NO" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7AK-QT-5Xg">
                                 <rect key="frame" x="16" y="113" width="343" height="285"/>
-                                <mutableString key="text">Hot Jamz is KMIH FM Radio, heard in the Seattle area at 88.9 and 94.5 FM. The programming is generated by the students of Mercer Island High School in Mercer Island, Washington. Thanks for listening!   Check out our website at:    This app was created by Zoe Sheill, Mercer Island High School junior. </mutableString>
+                                <string key="text">Hot Jamz is KMIH FM Radio, heard in the Seattle area at 88.9 and 94.5 FM. The programming is generated by the students of Mercer Island High School in Mercer Island, Washington. Thanks for listening!   Check out our website at:    This app was created by Zoe Sheill, Mercer Island High School junior. </string>
                                 <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Regular" family="Avenir Next" pointSize="16"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>

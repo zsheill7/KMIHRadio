@@ -7,7 +7,7 @@
      "imageURL": "hotjamzfull",
      "desc": "Midsized Record Label",
      "longDesc": "Sub is a record label founded in 1986 by Bruce Pavitt. In 1988, Sub Pop Records LLC was formed by Bruce Pavitt and Jonathan Poneman in Seattle, Washington. Sub Pop achieved fame in the late 1980s for first signing Nirvana, Soundgarden, Mudhoney and many other bands from the Seattle alternative rock scene."
-     }/*,
+     }
      {
      "name": "Sounds of the 80s",
      "streamURL": "http://stream-high.kmih.org:8000/",
@@ -28,6 +28,6 @@
      "imageURL": "",
      "desc": "KVCU - Boulder, CO",
      "longDesc": "Radio 1190 is the bomb."
-     }*/
+     }
     ]
 }
