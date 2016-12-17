@@ -3,7 +3,7 @@
 //  SwiftRadioUITests
 //
 //  Created by Jonah Stiennon on 12/3/15.
-//  Copyright © 2015 matthewfecher.com. All rights reserved.
+//  Copyright © 2015 zoesheill.com. All rights reserved.
 //
 
 import XCTest
@@ -51,12 +51,12 @@ class SwiftRadioUITests: XCTestCase {
     }
     
     func assertHamburgerContent() {
-        XCTAssertTrue(app.staticTexts["Created by: Matthew Fecher"].exists)
+        XCTAssertTrue(app.staticTexts["Created by: Zoe Sheill"].exists)
     }
     
     func assertAboutContent() {
         XCTAssertTrue(app.buttons["email me"].exists)
-        XCTAssertTrue(app.buttons["matthewfecher.com"].exists)
+        XCTAssertTrue(app.buttons["zoesheill.com"].exists)
     }
     
     func assertPaused() {

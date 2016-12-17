@@ -2,8 +2,8 @@
 //  StationTableViewCell.swift
 //  Swift Radio
 //
-//  Created by Matthew Fecher on 4/4/15.
-//  Copyright (c) 2015 MatthewFecher.com. All rights reserved.
+//  Created by Zoe Sheill on 4/4/15.
+//  Copyright (c) 2015 zoesheill.com. All rights reserved.
 //
 
 import UIKit

@@ -2,8 +2,8 @@
 //  DataManager.swift
 //  Swift Radio
 //
-//  Created by Matthew Fecher on 3/24/15.
-//  Copyright (c) 2015 MatthewFecher.com. All rights reserved.
+//  Created by Zoe Sheill on 3/24/15.
+//  Copyright (c) 2015 zoesheill.com. All rights reserved.
 //
 
 import UIKit
@@ -92,7 +92,7 @@ class DataManager {
                 
             } else if let httpResponse = response as? HTTPURLResponse {
                 if httpResponse.statusCode != 200 {
-                    let statusError = NSError(domain:"com.matthewfecher", code:httpResponse.statusCode, userInfo:[NSLocalizedDescriptionKey : "HTTP status code has unexpected value."])
+                    let statusError = NSError(domain:"com.zoesheill", code:httpResponse.statusCode, userInfo:[NSLocalizedDescriptionKey : "HTTP status code has unexpected value."])
                     
                     if kDebugLog { print("API: HTTP status code has unexpected value") }
                     
