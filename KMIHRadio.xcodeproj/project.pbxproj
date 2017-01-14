@@ -57,6 +57,7 @@
 		94DB0AAC1B98B762005ED993 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94DB0A8F1B98B762005ED993 /* UnwindSegue.swift */; };
 		94E9761C1B1A8F3200F52B1E /* UIImage+DropShadow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94E9761B1B1A8F3200F52B1E /* UIImage+DropShadow.swift */; };
 		94ECF2671B94D80600D120A8 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94ECF2661B94D80600D120A8 /* SwiftyJSON.swift */; };
+		C8F73BF51E2AD5E40055F08F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8F73BF41E2AD5E40055F08F /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,10 +71,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2C5545BA1C1124DE00728469 /* SwiftRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C5545BA1C1124DE00728469 /* KMIHRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMIHRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRadioUITests.swift; sourceTree = "<group>"; };
 		2C5545BE1C1124DE00728469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9409E1161ABF6FEA00312E2B /* SwiftRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9409E1161ABF6FEA00312E2B /* KMIHRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMIHRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9409E11A1ABF6FEA00312E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9409E11B1ABF6FEA00312E2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9409E1231ABF6FEA00312E2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -126,6 +127,7 @@
 		94E9761B1B1A8F3200F52B1E /* UIImage+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+DropShadow.swift"; sourceTree = "<group>"; };
 		94ECF2661B94D80600D120A8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = SwiftRadio/Libraries/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
 		B90086461BBE40AF00E5372C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		C8F73BF41E2AD5E40055F08F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -169,8 +171,8 @@
 		9409E1171ABF6FEA00312E2B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				9409E1161ABF6FEA00312E2B /* SwiftRadio.app */,
-				2C5545BA1C1124DE00728469 /* SwiftRadioUITests.xctest */,
+				9409E1161ABF6FEA00312E2B /* KMIHRadio.app */,
+				2C5545BA1C1124DE00728469 /* KMIHRadioUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -188,6 +190,7 @@
 				9409E1251ABF6FEA00312E2B /* Images.xcassets */,
 				9409E1191ABF6FEA00312E2B /* Supporting Files */,
 				94D260941B45E0BA00DE671C /* UI Helpers */,
+				C8F73BF41E2AD5E40055F08F /* LaunchScreen.storyboard */,
 			);
 			path = SwiftRadio;
 			sourceTree = "<group>";
@@ -309,9 +312,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2C5545B91C1124DE00728469 /* SwiftRadioUITests */ = {
+		2C5545B91C1124DE00728469 /* KMIHRadioUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2C5545C31C1124DE00728469 /* Build configuration list for PBXNativeTarget "SwiftRadioUITests" */;
+			buildConfigurationList = 2C5545C31C1124DE00728469 /* Build configuration list for PBXNativeTarget "KMIHRadioUITests" */;
 			buildPhases = (
 				2C5545B61C1124DE00728469 /* Sources */,
 				2C5545B71C1124DE00728469 /* Frameworks */,
@@ -322,14 +325,14 @@
 			dependencies = (
 				2C5545C01C1124DE00728469 /* PBXTargetDependency */,
 			);
-			name = SwiftRadioUITests;
+			name = KMIHRadioUITests;
 			productName = SwiftRadioUITests;
-			productReference = 2C5545BA1C1124DE00728469 /* SwiftRadioUITests.xctest */;
+			productReference = 2C5545BA1C1124DE00728469 /* KMIHRadioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
-		9409E1151ABF6FEA00312E2B /* SwiftRadio */ = {
+		9409E1151ABF6FEA00312E2B /* KMIHRadio */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9409E1381ABF6FEA00312E2B /* Build configuration list for PBXNativeTarget "SwiftRadio" */;
+			buildConfigurationList = 9409E1381ABF6FEA00312E2B /* Build configuration list for PBXNativeTarget "KMIHRadio" */;
 			buildPhases = (
 				9409E1121ABF6FEA00312E2B /* Sources */,
 				9409E1131ABF6FEA00312E2B /* Frameworks */,
@@ -339,9 +342,9 @@
 			);
 			dependencies = (
 			);
-			name = SwiftRadio;
+			name = KMIHRadio;
 			productName = RadioPro;
-			productReference = 9409E1161ABF6FEA00312E2B /* SwiftRadio.app */;
+			productReference = 9409E1161ABF6FEA00312E2B /* KMIHRadio.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -372,7 +375,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9409E1111ABF6FE900312E2B /* Build configuration list for PBXProject "SwiftRadio" */;
+			buildConfigurationList = 9409E1111ABF6FE900312E2B /* Build configuration list for PBXProject "KMIHRadio" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -385,8 +388,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9409E1151ABF6FEA00312E2B /* SwiftRadio */,
-				2C5545B91C1124DE00728469 /* SwiftRadioUITests */,
+				9409E1151ABF6FEA00312E2B /* KMIHRadio */,
+				2C5545B91C1124DE00728469 /* KMIHRadioUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -407,6 +410,7 @@
 				9409E1241ABF6FEA00312E2B /* Main.storyboard in Resources */,
 				945DB3C51AD5A6E200495EBB /* NothingFoundCell.xib in Resources */,
 				94DB0A9F1B98B762005ED993 /* LoadingView.xib in Resources */,
+				C8F73BF51E2AD5E40055F08F /* LaunchScreen.storyboard in Resources */,
 				94DB0A9C1B98B762005ED993 /* Info.plist in Resources */,
 				9409E1261ABF6FEA00312E2B /* Images.xcassets in Resources */,
 			);
@@ -478,7 +482,7 @@
 /* Begin PBXTargetDependency section */
 		2C5545C01C1124DE00728469 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9409E1151ABF6FEA00312E2B /* SwiftRadio */;
+			target = 9409E1151ABF6FEA00312E2B /* KMIHRadio */;
 			targetProxy = 2C5545BF1C1124DE00728469 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -616,9 +620,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = HNK7ZEMZ36;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -629,7 +632,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.889thebridge.app;
-				PRODUCT_NAME = SwiftRadio;
+				PRODUCT_NAME = KMIHRadio;
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 3.0;
@@ -640,9 +643,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-1";
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = HNK7ZEMZ36;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -653,7 +655,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.889thebridge.app;
-				PRODUCT_NAME = SwiftRadio;
+				PRODUCT_NAME = KMIHRadio;
 				PROVISIONING_PROFILE = "";
 				SWIFT_INSTALL_OBJC_HEADER = NO;
 				SWIFT_VERSION = 3.0;
@@ -663,7 +665,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2C5545C31C1124DE00728469 /* Build configuration list for PBXNativeTarget "SwiftRadioUITests" */ = {
+		2C5545C31C1124DE00728469 /* Build configuration list for PBXNativeTarget "KMIHRadioUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2C5545C11C1124DE00728469 /* Debug */,
@@ -672,7 +674,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9409E1111ABF6FE900312E2B /* Build configuration list for PBXProject "SwiftRadio" */ = {
+		9409E1111ABF6FE900312E2B /* Build configuration list for PBXProject "KMIHRadio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9409E1361ABF6FEA00312E2B /* Debug */,
@@ -681,7 +683,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9409E1381ABF6FEA00312E2B /* Build configuration list for PBXNativeTarget "SwiftRadio" */ = {
+		9409E1381ABF6FEA00312E2B /* Build configuration list for PBXNativeTarget "KMIHRadio" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9409E1391ABF6FEA00312E2B /* Debug */,
