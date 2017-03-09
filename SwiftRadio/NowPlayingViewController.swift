@@ -375,7 +375,7 @@ class NowPlayingViewController: UIViewController {
                     self.albumImageView.animation = "wobble"
                     self.albumImageView.duration = 2
                     self.albumImageView.animate()
-                    self.stationDescLabel.isHidden = true
+                   // self.stationDescLabel.isHidden = true
 
                     // Update lockscreen
                     self.updateLockScreen()
