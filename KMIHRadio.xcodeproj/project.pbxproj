@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2C5545BD1C1124DE00728469 /* SwiftRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */; };
+		2C5545BD1C1124DE00728469 /* KMIHRadioUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C5545BC1C1124DE00728469 /* KMIHRadioUITests.swift */; };
 		9409E11C1ABF6FEA00312E2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9409E11B1ABF6FEA00312E2B /* AppDelegate.swift */; };
 		9409E1241ABF6FEA00312E2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9409E1221ABF6FEA00312E2B /* Main.storyboard */; };
 		9409E1261ABF6FEA00312E2B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9409E1251ABF6FEA00312E2B /* Images.xcassets */; };
@@ -22,7 +22,7 @@
 		949E5EB01ACB340200AB6280 /* UIImageView+Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 949E5EAF1ACB340200AB6280 /* UIImageView+Download.swift */; };
 		94AC70AE1AD05C6200652982 /* RadioStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94AC70AD1AD05C6200652982 /* RadioStation.swift */; };
 		94D1D0A51AD6D6230022CA11 /* InfoDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D1D0A41AD6D6230022CA11 /* InfoDetailViewController.swift */; };
-		94D260911B45D20000DE671C /* SwiftRadio-Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */; };
+		94D260911B45D20000DE671C /* KMIHRadio-Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260901B45D20000DE671C /* KMIHRadio-Settings.swift */; };
 		94D260961B45E3FA00DE671C /* AnimationFrames.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260951B45E3FA00DE671C /* AnimationFrames.swift */; };
 		94D260981B45E8B800DE671C /* Track.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D260971B45E8B800DE671C /* Track.swift */; };
 		94D30EA71AD07A880024FE96 /* StationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94D30EA61AD07A880024FE96 /* StationTableViewCell.swift */; };
@@ -66,13 +66,13 @@
 			containerPortal = 9409E10E1ABF6FE900312E2B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 9409E1151ABF6FEA00312E2B;
-			remoteInfo = SwiftRadio;
+			remoteInfo = KMIHRadio;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2C5545BA1C1124DE00728469 /* KMIHRadioUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMIHRadioUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftRadioUITests.swift; sourceTree = "<group>"; };
+		2C5545BC1C1124DE00728469 /* KMIHRadioUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KMIHRadioUITests.swift; sourceTree = "<group>"; };
 		2C5545BE1C1124DE00728469 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9409E1161ABF6FEA00312E2B /* KMIHRadio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMIHRadio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9409E11A1ABF6FEA00312E2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -90,7 +90,7 @@
 		949E5EAF1ACB340200AB6280 /* UIImageView+Download.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+Download.swift"; sourceTree = "<group>"; };
 		94AC70AD1AD05C6200652982 /* RadioStation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RadioStation.swift; sourceTree = "<group>"; };
 		94D1D0A41AD6D6230022CA11 /* InfoDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailViewController.swift; sourceTree = "<group>"; };
-		94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SwiftRadio-Settings.swift"; sourceTree = "<group>"; };
+		94D260901B45D20000DE671C /* KMIHRadio-Settings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "KMIHRadio-Settings.swift"; sourceTree = "<group>"; };
 		94D260951B45E3FA00DE671C /* AnimationFrames.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AnimationFrames.swift; sourceTree = "<group>"; };
 		94D260971B45E8B800DE671C /* Track.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Track.swift; sourceTree = "<group>"; };
 		94D30EA61AD07A880024FE96 /* StationTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StationTableViewCell.swift; sourceTree = "<group>"; };
@@ -125,7 +125,7 @@
 		94DB0A8E1B98B762005ED993 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
 		94DB0A8F1B98B762005ED993 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
 		94E9761B1B1A8F3200F52B1E /* UIImage+DropShadow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+DropShadow.swift"; sourceTree = "<group>"; };
-		94ECF2661B94D80600D120A8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = SwiftRadio/Libraries/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
+		94ECF2661B94D80600D120A8 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = KMIHRadio/Libraries/SwiftyJSON.swift; sourceTree = SOURCE_ROOT; };
 		B90086461BBE40AF00E5372C /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		C8F73BF41E2AD5E40055F08F /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -148,22 +148,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2C5545BB1C1124DE00728469 /* SwiftRadioUITests */ = {
+		2C5545BB1C1124DE00728469 /* KMIHRadioUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2C5545BC1C1124DE00728469 /* SwiftRadioUITests.swift */,
+				2C5545BC1C1124DE00728469 /* KMIHRadioUITests.swift */,
 				2C5545BE1C1124DE00728469 /* Info.plist */,
 			);
-			path = SwiftRadioUITests;
+			path = KMIHRadioUITests;
 			sourceTree = "<group>";
 		};
 		9409E10D1ABF6FE900312E2B = {
 			isa = PBXGroup;
 			children = (
 				B90086461BBE40AF00E5372C /* MediaPlayer.framework */,
-				9409E1181ABF6FEA00312E2B /* SwiftRadio */,
+				9409E1181ABF6FEA00312E2B /* KMIHRadio */,
 				949BBB411ACCA2B6005B7C26 /* Libraries */,
-				2C5545BB1C1124DE00728469 /* SwiftRadioUITests */,
+				2C5545BB1C1124DE00728469 /* KMIHRadioUITests */,
 				9409E1171ABF6FEA00312E2B /* Products */,
 			);
 			sourceTree = "<group>";
@@ -177,7 +177,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9409E1181ABF6FEA00312E2B /* SwiftRadio */ = {
+		9409E1181ABF6FEA00312E2B /* KMIHRadio */ = {
 			isa = PBXGroup;
 			children = (
 				94D2608E1B45D0F800DE671C /* ViewControllers */,
@@ -192,14 +192,14 @@
 				94D260941B45E0BA00DE671C /* UI Helpers */,
 				C8F73BF41E2AD5E40055F08F /* LaunchScreen.storyboard */,
 			);
-			path = SwiftRadio;
+			path = KMIHRadio;
 			sourceTree = "<group>";
 		};
 		9409E1191ABF6FEA00312E2B /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
 				9409E11A1ABF6FEA00312E2B /* Info.plist */,
-				94D260901B45D20000DE671C /* SwiftRadio-Settings.swift */,
+				94D260901B45D20000DE671C /* KMIHRadio-Settings.swift */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -296,7 +296,7 @@
 				94DB0A8F1B98B762005ED993 /* UnwindSegue.swift */,
 			);
 			name = Spring;
-			path = SwiftRadio/Libraries/Spring;
+			path = KMIHRadio/Libraries/Spring;
 			sourceTree = SOURCE_ROOT;
 		};
 		94E976191B1A8BFB00F52B1E /* Model */ = {
@@ -326,7 +326,7 @@
 				2C5545C01C1124DE00728469 /* PBXTargetDependency */,
 			);
 			name = KMIHRadioUITests;
-			productName = SwiftRadioUITests;
+			productName = KMIHRadioUITests;
 			productReference = 2C5545BA1C1124DE00728469 /* KMIHRadioUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
@@ -423,7 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C5545BD1C1124DE00728469 /* SwiftRadioUITests.swift in Sources */,
+				2C5545BD1C1124DE00728469 /* KMIHRadioUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -439,7 +439,7 @@
 				94DB0AA51B98B762005ED993 /* SpringImageView.swift in Sources */,
 				949E5EB01ACB340200AB6280 /* UIImageView+Download.swift in Sources */,
 				94DB0A981B98B762005ED993 /* DesignableTextField.swift in Sources */,
-				94D260911B45D20000DE671C /* SwiftRadio-Settings.swift in Sources */,
+				94D260911B45D20000DE671C /* KMIHRadio-Settings.swift in Sources */,
 				94DB0A941B98B762005ED993 /* DesignableButton.swift in Sources */,
 				94DB0AA61B98B762005ED993 /* SpringLabel.swift in Sources */,
 				94DB0A901B98B762005ED993 /* AsyncButton.swift in Sources */,
@@ -504,13 +504,13 @@
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = SwiftRadioUITests/Info.plist;
+				INFOPLIST_FILE = KMIHRadioUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jonah.SwiftRadioUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.KMIHRadioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SwiftRadio;
+				TEST_TARGET_NAME = KMIHRadio;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
@@ -520,13 +520,13 @@
 			buildSettings = {
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = SwiftRadioUITests/Info.plist;
+				INFOPLIST_FILE = KMIHRadioUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = jonah.SwiftRadioUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = jonah.KMIHRadioUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
-				TEST_TARGET_NAME = SwiftRadio;
+				TEST_TARGET_NAME = KMIHRadio;
 				USES_XCTRUNNER = YES;
 			};
 			name = Release;
@@ -626,9 +626,9 @@
 				DEVELOPMENT_TEAM = HNK7ZEMZ36;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SwiftRadio",
+					"$(PROJECT_DIR)/KMIHRadio",
 				);
-				INFOPLIST_FILE = SwiftRadio/Info.plist;
+				INFOPLIST_FILE = KMIHRadio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.889thebridge.app;
@@ -650,9 +650,9 @@
 				DEVELOPMENT_TEAM = HNK7ZEMZ36;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"$(PROJECT_DIR)/SwiftRadio",
+					"$(PROJECT_DIR)/KMIHRadio",
 				);
-				INFOPLIST_FILE = SwiftRadio/Info.plist;
+				INFOPLIST_FILE = KMIHRadio/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.889thebridge.app;
